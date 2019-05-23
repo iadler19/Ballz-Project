@@ -14,7 +14,7 @@ public class guiStartMenu extends JPanel
 {
 	public void start()
 	{
-	//setLayout(new GridBagLayout());
+	setLayout(new GridBagLayout());
 	JPanel panel = new JPanel();
 	GridBagConstraints gbc = new GridBagConstraints();
 	gbc.gridx = 0;
